@@ -5,7 +5,7 @@ The focus was on testing hypotheses with formal statistical methods, confirming 
 were truly significant, and translating results into actionable business recommendations.  
 
 Where Week 11 emphasized discovery and visualization, Week 12 was about **rigor and confirmation**: hypothesis testing, 
-effect sizes, confidence intervals, and practical significance — all documented in a polished report for management.  
+effect sizes, confidence intervals, and practical significance, all documented in a polished report for management.  
 
 ---
 
@@ -66,6 +66,11 @@ This project showed me how **statistical validation transforms exploratory insig
 - Effect sizes clarified the magnitude of differences  
 - Confidence intervals provided precision around estimates  
 - Business recommendations were grounded in statistical proof, not just descriptive patterns  
+
+## Brief Challenge  
+One challenge I faced was handling the **SettingWithCopyWarning** in pandas when creating new columns from subsets.  
+At first, this confused my workflow, but I resolved it by explicitly using `.copy()` when working with subsets.  
+This small fix improved code reliability and ensured clean, warning-free outputs.  
 
 ---
 
